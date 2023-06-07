@@ -1,46 +1,48 @@
-# Getting Started with Create React App
+# 키오스크메이커(임시)
+`0608`
+* typescript를 이용하여 
+* Redux/toolkit 이용하여 전역 상태 관리
+* atomic pattern 과 polymorphic component 를 이용한 유연한 설계 
+* Lottie-web / React Icons 를 이용한 UI 스타일링 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
+## 페이지 상세
+* 인덱스 페이지
+* 로그인 / 회원가입 페이지
+* 마이페이지 ( 키오스크 관리 )
+* 키오스크 페이지
+* 1. UI / 레이아웃 페이지
+* 2. 키오스크 아이템/데이터 관리 페이지
 
-## Available Scripts
+## Gitmoji
 
-In the project directory, you can run:
+* 설치 `npm i -g gitmoji-cli`  
+* 기존 git commit -m 대신 gitmoji -c로 커밋하여 커밋 텍스트 가독성 향상
 
+### Gitmoji --help
+* ♻️ `:recycle:` 코드개선 / 코드리팩토링 ( 코드 스플리팅)
+
+* 🐛 `:bug:` 버그 수정 (오타 수정)
+
+* 🚚 `:truck:` 파일 이름 변경 / 리소스 이동 (컴포넌트 분할 폴더명 변경)
+
+* 🔧 `:wrench:` : 설정파일 변경 (eslintrc,prettierrc 변경)
+
+* 🔥 `:fire:` 파일/코드 삭제 
+
+* 💄 `:lipstick:` UI / 스타일 (css, styled.js 수정/추가/삭제)
+
+* ✨ `:sparkles:` 새 기능 추가 : fear/add (컴포넌트 추가 / 기능 추가 )
+
+* 💡 `:bulb:` 주석 추가 // 텍스트 추가 
+
+* 🙈 `:see_no_evil:` .gitignore 추가 및 수정
+
+* 💩 `:poop:` 코드가 안 좋을 때..(작동 안되는 미완성)
+* .
+* .
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
